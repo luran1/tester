@@ -36,3 +36,5 @@ dat <- redcap_read(
   fields     = desired_fields,
   events     = events_to_retain,
   )$data
+
+print(dat)
